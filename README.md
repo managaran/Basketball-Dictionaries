@@ -1,6 +1,5 @@
 # Basketball-Dictionaries
 
-Assignment Tasks
 Challenge 1: Update the Constructor
 His class constructor so far looks like this:
 
