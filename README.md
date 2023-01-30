@@ -1,5 +1,50 @@
 # Basketball-Dictionaries
 
+Assignment
+
+Paul is a fantasy basketball league manager, but also a programmer! He is trying to organize fantasy teams of players (that can be from any of the real teams) for his league website. There is already a web service that collects the line-up data from friends in batches.
+
+So far, he has been able to get a single list of dictionaries at a time from the API, and would like to put each team into a list of Player object instances, so that he can use methods related to players.
+
+The lists look something like this:
+
+players = [
+    {
+    	"name": "Kevin Durant", 
+    	"age":34, 
+    	"position": "small forward", 
+    	"team": "Brooklyn Nets"
+    },
+    {
+    	"name": "Jason Tatum", 
+    	"age":24, 
+    	"position": "small forward", 
+    	"team": "Boston Celtics"
+    },
+    {
+    	"name": "Kyrie Irving", 
+    	"age":32, "position": "Point Guard", 
+    	"team": "Brooklyn Nets"
+    },
+    {
+    	"name": "Damian Lillard", 
+    	"age":33, "position": "Point Guard", 
+    	"team": "Portland Trailblazers"
+    },
+    {
+    	"name": "Joel Embiid", 
+    	"age":32, "position": "Power Foward", 
+    	"team": "Philidelphia 76ers"
+    },
+    {
+    	"name": "", 
+    	"age":16, 
+    	"position": "P", 
+    	"team": "en"
+    }
+]
+copy
+Assignment Tasks
 Challenge 1: Update the Constructor
 His class constructor so far looks like this:
 
